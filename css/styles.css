@@ -17,7 +17,6 @@ body {
 }
 
 @media (min-width: 375px) {
-
   header {
     display: flex;
     justify-content: space-between;
@@ -120,7 +119,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  
+
   #container-icons {
     width: 170.17;
     height: 20px;
