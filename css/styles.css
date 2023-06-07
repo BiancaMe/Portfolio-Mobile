@@ -17,7 +17,8 @@ body {
 }
 
 @media (min-width: 375px) {
-  #navbar {
+
+  header {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -46,17 +47,18 @@ body {
     color: violet;
   }
 
-  #container-menu {
+  #navbar {
+    display: flex;
+    justify-content: center;
     width: 40px;
     height: 40px;
-    color: #acb7c3;
     margin: 4px 24px 0 0;
     padding: 8px;
   }
 
   #menu {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
   }
 
   #headline {
@@ -113,6 +115,12 @@ body {
     margin-top: 12px;
   }
 
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
   #container-icons {
     width: 170.17;
     height: 20px;
