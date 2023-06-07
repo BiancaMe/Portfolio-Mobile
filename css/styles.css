@@ -1,147 +1,140 @@
 html {
-    box-sizing: border-box;
-    height: 100vh;
+  box-sizing: border-box;
+  height: 100vh;
 }
 
-*, 
+*,
 *:before,
 *:after {
-          box-sizing: inherit;
-          margin: 0;
-          padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Poppins";
-    padding: 0;
+  font-family: "Poppins";
+  padding: 0;
 }
 
-@media (min-width: 375px){
+@media (min-width: 375px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    padding: 0;
+  }
 
-    #navbar {  
-        display: flex;
-        justify-content: space-between;  
-        width: 100%;   
-        height: 48px;
-        padding: 0;
-    }
+  #container-logo {
+    width: 100px;
+    height: 40px;
+    margin: 4px 0 0 12px;
+    padding: 10px 12px 10px 12px;
+    align-items: center;
+    text-align: center;
+  }
 
-    #container-logo {
-                    width: 100px;
-                    height: 40px;
-                    margin: 4px  0 0 12px;
-                    padding: 10px 12px 10px 12px;
-                    align-items: center;
-                    text-align: center;
-    }
+  #myLogo {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6070ff;
+  }
 
-    #myLogo {
-            font-style: normal;
-            font-size: 18px;
-            line-height: 20px;
-            font-weight: 700;
-            color:#6070FF ;
+  #myLogo:hover {
+    color: violet;
+  }
 
-    }
+  #container-menu {
+    width: 40px;
+    height: 40px;
+    color: #acb7c3;
+    margin: 4px 24px 0 0;
+    padding: 8px;
+  }
 
-    #myLogo:hover {
-        color: violet;
-    }
-
-    #container-menu {
-            width: 40px;
-            height: 40px;
-            color:#ACB7C3 ;
-            margin: 4px 24px 0 0;
-            padding: 8px;
-    }
-
-    #menu {
+  #menu {
     width: 24px;
     height: 24px;
-    }
+  }
 
-    #headline {
-        background-image: url(img/Microverse-Student-Project-1/header-shapes\ mobile.png);
-        width: 100%;
-        height: 93.314763%;
-        display: flex;
-    }
-    #container-text-icons {
-                        width: 100%;
-                        height: 100%;
-    }
+  #headline {
+    background-image: url(img/Microverse-Student-Project-1/header-shapes\ mobile.png);
+    width: 100%;
+    height: 93.314763%;
+    display: flex;
+  }
+  #container-text-icons {
+    width: 100%;
+    height: 100%;
+  }
 
-    #text-presentation {
-                        width: 100%;
-                        height: 100%;
-    }
+  #text-presentation {
+    width: 100%;
+    height: 100%;
+  }
 
+  #text-presentation h1 {
+    width: 87.2%;
+    height: 23.006135%;
+    margin: 0%;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color: #091e42;
+    letter-spacing: 0.37px;
+    margin-left: 24px;
+    margin-top: 114px;
+  }
 
+  #text-presentation p {
+    width: 87.2%;
+    height: 22.39264%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-left: 24px;
+    margin-top: 12px;
+  }
 
-    #text-presentation h1 {
-                        width: 87.2%;
-                        height: 23.006135%;
-                        margin: 0%;
-                        font-size: 40px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 52px;
-                        color: #091E42;
-                        letter-spacing: 0.37px;
-                        margin-left: 24px;
-                        margin-top:114px ;
-    }
+  #text-presentation h4 {
+    width: 119px;
+    height: 3.68098%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #7f8cff;
+    margin-left: 24px;
+    margin-top: 12px;
+  }
+  #container-icons {
+    width: 170.17;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 24px;
+  }
 
-    #text-presentation p {
-                        width: 87.2%;
-                        height: 22.39264%;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 24px;
-                        color: #344563;
-                        margin-left: 24px;
-                        margin-top:12px ;
-    }
-
-    #text-presentation h4 {
-                        width: 119px ;
-                        height: 3.68098%;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 24px;
-                        font-style: normal;
-                        color: #7F8CFF;
-                        margin-left: 24px;
-                        margin-top: 12px;
-
-    }
-    #container-icons {
-                    width:170.17;
-                    height: 20px;
-                    margin-top: 12px;
-                    margin-left: 24px;
-    } 
-
-    #twitter {
-            width: 19.99px;
-            margin-right: 15px;
-    }
-    #link {
-        width: 20px;
-        margin-right: 15px;
-    }
-    #github {
-            width:17.99px;
-            margin-right: 15px;
-    }
-    #m {
+  #twitter {
+    width: 19.99px;
+    margin-right: 15px;
+  }
+  #link {
     width: 20px;
     margin-right: 15px;
-    }
-    #paz {
-        width:14.17px;
-    }
-
-
+  }
+  #github {
+    width: 17.99px;
+    margin-right: 15px;
+  }
+  #m {
+    width: 20px;
+    margin-right: 15px;
+  }
+  #paz {
+    width: 14.17px;
+  }
 }
