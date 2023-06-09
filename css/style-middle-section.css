@@ -60,7 +60,7 @@
   .tags {
     margin-top: 12px;
   }
-  
+
   .action a {
     color: #396df2;
     font-size: 17px;
@@ -69,6 +69,13 @@
     font-style: normal;
     display: flex;
     text-align: center;
+  }
+
+  .skills-li a {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
   }
 
   .tags li a {
@@ -105,13 +112,6 @@
     border: 1px solid #6070ff;
     border-radius: 8px;
     margin: 24px 0 24px 24px;
-  }
-  
-  .skills-li a {
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center;
   }
 
   #resume a {
