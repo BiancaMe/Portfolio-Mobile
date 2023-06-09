@@ -1,6 +1,6 @@
 @media (min-width: 375px) {
   #works {
-    /*375 x 2788 */
+    /* 375 x 2788 */
     background-color: #e5e5e5;
     display: grid;
     grid-gap: 88px;
@@ -12,7 +12,7 @@
     border-radius: 16px;
     padding: 16px 16px 28px 16px;
     gap: 12px;
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
   }
@@ -60,6 +60,16 @@
   .tags {
     margin-top: 12px;
   }
+  
+  .action a {
+    color: #396df2;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+  }
 
   .tags li a {
     font-size: 12px;
@@ -83,19 +93,9 @@
     margin-top: 12px;
   }
 
-  .action a {
-    color: #396df2;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: normal;
-    display: flex;
-    text-align: center;
-  }
-
-  /** About Myself*/
+  /* About Myself */
   #myself {
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   #resume {
@@ -105,6 +105,13 @@
     border: 1px solid #6070ff;
     border-radius: 8px;
     margin: 24px 0 24px 24px;
+  }
+  
+  .skills-li a {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
   }
 
   #resume a {
@@ -125,13 +132,6 @@
     display: flex;
     flex-direction: column;
     width: 87.2%;
-  }
-
-  .skills-li a {
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center;
   }
 
   .skills-li h2 {
