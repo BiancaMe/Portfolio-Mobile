@@ -99,7 +99,7 @@
   }
 
   .action:hover {
-    background-color: #6070FF;
+    background-color: #6070ff;
     color: #fff;
   }
 
@@ -133,7 +133,7 @@
   }
 
   #resume:hover {
-    background-color: #6070FF;
+    background-color: #6070ff;
     color: #fff;
   }
 
@@ -189,5 +189,4 @@
   .icon-first {
     margin-left: 7.5px;
   }
-
 }
