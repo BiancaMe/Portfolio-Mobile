@@ -103,10 +103,21 @@
     color: #fff;
   }
 
+  .action:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
   .action:disabled {
     background-color: #e5e5e5;
     color: #5e6c84;
     border: 1px solid #c1c7d0;
+  }
+
+  .action:active {
+    color: #fff;
+    background-color: #2230D2;
   }
 
   /* About Myself */
@@ -135,6 +146,22 @@
   #resume:hover {
     background-color: #6070ff;
     color: #fff;
+  }
+  .resume:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
+  .resume:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+    border: 1px solid #c1c7d0;
+  }
+
+  .resume:active {
+    color: #fff;
+    background-color: #2230D2;
   }
 
   #skills {
@@ -176,6 +203,7 @@
     display: flex;
     padding: 9px 0 9px 12px;
     background-color: #f7f7f9;
+    border-radius: 8px;
   }
 
   .sub-list h3 {
