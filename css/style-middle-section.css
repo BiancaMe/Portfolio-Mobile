@@ -30,6 +30,12 @@
     margin-top: 12px;
   }
 
+  .frame ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
   .frame1 {
     color: #344563;
     font-style: normal;
@@ -58,6 +64,12 @@
 
   .tags {
     margin-top: 12px;
+  }
+
+  .tags ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
   }
 
   .action a {
@@ -173,6 +185,7 @@
   #skills ul {
     display: flex;
     flex-direction: column;
+    list-style: none;
   }
 
   .skills-li h2 {
