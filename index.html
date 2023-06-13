@@ -246,10 +246,11 @@
                 I’d love to help with it!
             </p>
 
-            <form id="contact-form">
-                <input class="input-form" name="name"  type="text" placeholder="Lorem ipsum" >
+            <form id="contact-form" action="https://formspree.io/f/xbjenldv"
+            method="POST">
+                <input class="input-form" name="name"  type="text" placeholder="Lorem ipsum" maxlength="30">
                 <input class="input-form" name="email" type="email" placeholder="loremipsum@gmail.com">
-                <textarea name="text-area" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                <textarea name="text-area" id="" cols="30" rows="10" placeholder="Write your message here..." maxlength="500"></textarea>
                 <button type="submit">Get in touch</button>
             </form>
 
