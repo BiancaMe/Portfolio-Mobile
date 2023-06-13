@@ -70,5 +70,12 @@
     letter-spacing: 0.03em;
     font-style: normal;
     font-family: Poppins, sans-serif;
+    color: #6070FF;
+    background-color: #fff;
   }
+  
+ input::placeholder {
+  color: black;
+ }
+
 }
