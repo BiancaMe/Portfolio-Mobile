@@ -64,14 +64,13 @@
 
   .tags {
     margin-top: 12px;
-    
   }
 
   .tags ul {
     list-style: none;
     overflow: hidden;
-    
   }
+
   .tags li {
     float: left;
   }
