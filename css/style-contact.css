@@ -70,14 +70,33 @@
     letter-spacing: 0.03em;
     font-style: normal;
     font-family: Poppins, sans-serif;
-    color: #6070FF;
+    color: #6070ff;
     background-color: #fff;
   }
 
-  
-  
- input::placeholder {
-  color: black;
- }
+  #contact-form button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
 
+  #contact-form button:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
+  #contact-form button:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+    border: 1px solid #c1c7d0;
+  }
+
+  #contact-form button:active {
+    color: #fff;
+    background-color: #2230d2;
+  }
+
+  input::placeholder {
+    color: black;
+  }
 }
