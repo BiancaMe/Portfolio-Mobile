@@ -115,7 +115,7 @@ body {
     margin-top: 12px;
   }
 
-   #container-icons ul {
+  #container-icons ul {
     list-style: none;
     display: flex;
     flex-direction: row;

@@ -68,8 +68,11 @@
 
   .tags ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .tags li {
+    float: left;
   }
 
   .action a {

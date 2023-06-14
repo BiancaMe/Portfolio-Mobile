@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h1><b>Portfolio Mobile></h1>
+  <h1><b>Portfolio Mobile</h1>
 
 </div>
 
@@ -107,6 +107,10 @@ To run the project, double click on the index to open it in the browser.
 - GitHub: [@BiancaMe](https://github.com/BiancaMe)
 - Twitter: [@BiancaMeLopez](https://twitter.com/BiancaMeLopez)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bianca-lopez-55a4a3276/)
+  
+👤 **Ali Reza**
+
+- GitHub: [@AliRezaBmeDue](https://github.com/AliRezaBmeDue)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
