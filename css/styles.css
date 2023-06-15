@@ -35,7 +35,7 @@ body {
     text-align: center;
     transition: width 2s, height 2s;
   }
-  
+
   #container-logo:hover {
     width: 150px;
     height: 60px;
