@@ -33,6 +33,12 @@ body {
     padding: 10px 12px 10px 12px;
     align-items: center;
     text-align: center;
+    transition: width 2s, height 2s;
+  }
+  
+  #container-logo:hover {
+    width: 150px;
+    height: 60px;
   }
 
   #myLogo {
@@ -41,10 +47,12 @@ body {
     line-height: 20px;
     font-weight: 700;
     color: #6070ff;
+    transition: font-size 2s, background-color 2s;
   }
 
   #myLogo:hover {
     color: violet;
+    font-size: 24px;
   }
 
   #navbar {
