@@ -190,8 +190,17 @@
     gap: 22px;
     border: 1px solid #dfe1e6;
     flex-direction: row-reverse;
-    animation-duration: 3s;
-    animation-name: slidein;
+    animation: right 2s ease-in-out;
+  }
+
+  @keyframes right {
+    0% {
+      transform: translateX(100%);
+    }
+    
+    100% {
+      transform: translateX(0%);
+    }
   }
 
   .card-work-impar {
@@ -201,6 +210,17 @@
     display: flex;
     gap: 22px;
     border: 1px solid #dfe1e6;
+    animation: left 2s ease-in-out;
+  }
+
+  @keyframes left {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
   }
 
   .work-presentation-mobile {
