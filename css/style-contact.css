@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 768px) {
   #contact {
     width: 100%;
     background-image: url(img/Contact\ me-foto.png);

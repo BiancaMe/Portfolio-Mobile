@@ -16,7 +16,7 @@ body {
   padding: 0;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -54,6 +54,12 @@ body {
     height: 40px;
     margin: 4px 24px 0 0;
     padding: 8px;
+  }
+
+  #navbar ul,
+  #navbar li,
+  #navbar li a {
+    display: none;
   }
 
   #menu {
