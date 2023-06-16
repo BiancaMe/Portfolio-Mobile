@@ -1,0 +1,587 @@
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 72px;
+    padding: 0;
+    position: fixed;
+  }
+
+  #container-logo {
+    width: 100px;
+    height: 40px;
+    margin: 15px 0 0 143px;
+    padding: 10px 12px 10px 12px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #myLogo {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6070ff;
+  }
+
+  #myLogo:hover {
+    color: violet;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+    width: 17.92%;
+    height: 40px;
+    margin: 15px 143px 0 0;
+    padding: 8px;
+  }
+
+  #menu-action {
+    display: none;
+  }
+
+  .frame ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tags ul {
+    list-style: none;
+    overflow: hidden;
+  }
+
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .tags li {
+    float: left;
+  }
+
+  .first-text-section h1 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .sub-list li {
+    float: left;
+    width: 122px;
+    padding: 9px 0 9px 12px;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+  }
+
+  #navbar li {
+    padding: 0 12px 10px 12px;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  /* ------HeadLine --------- */
+
+  #headline {
+    background-image: url(img/background-shape-desktop/Header\ bg@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+
+  #container-text-icons {
+    width: 100%;
+    height: 100%;
+  }
+
+  #text-presentation {
+    width: 63.89%;
+    margin: 24.56% 18.056% 0 18.056%;
+  }
+
+  #text-presentation h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #091e42;
+    letter-spacing: 0.37px;
+  }
+
+  #text-presentation p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-top: 12px;
+  }
+
+  #text-presentation h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #7f8cff;
+    margin-top: 12px;
+  }
+
+  #container-icons ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18.056%;
+  }
+
+  #container-icons {
+    width: 170.17;
+    height: 20px;
+    margin-top: 12px;
+  }
+
+  #twitter {
+    width: 19.99px;
+    margin-right: 15px;
+  }
+
+  #link {
+    width: 20px;
+    margin-right: 15px;
+  }
+
+  #github {
+    width: 17.99px;
+    margin-right: 15px;
+  }
+
+  #m {
+    width: 20px;
+    margin-right: 15px;
+  }
+
+  #paz {
+    width: 14.17px;
+    margin-right: 15px;
+  }
+
+  /* --------------MiddleSection-------- */
+
+  #works {
+    background-color: #e5e5e5;
+    display: grid;
+    grid-gap: 142px;
+    padding: 142px 9.861% 142px 9.861%;
+  }
+
+  .card-work-par {
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #fff;
+    display: flex;
+    gap: 22px;
+    border: 1px solid #dfe1e6;
+    flex-direction: row-reverse;
+    animation: right 2s ease-in-out;
+  }
+
+  @keyframes right {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .card-work-impar {
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #fff;
+    display: flex;
+    gap: 22px;
+    border: 1px solid #dfe1e6;
+    animation: left 2s ease-in-out;
+  }
+
+  @keyframes left {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .work-presentation-mobile {
+    display: none;
+  }
+
+  .work-presentation-desktop {
+    width: 37.778%;
+  }
+
+  .block {
+    padding: 24px;
+  }
+
+  .frame {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 12px;
+  }
+
+  .frame1 {
+    color: #344563;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .dot {
+    margin: 0 12px 0 12px;
+  }
+
+  .frame2 {
+    color: #7a869a;
+    font-weight: 400;
+  }
+
+  .frame3 {
+    color: #7a869a;
+    font-weight: 400;
+  }
+
+  .primary-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: #344563;
+    margin-top: 32px;
+  }
+
+  .tags {
+    margin-top: 24px;
+  }
+
+  .action a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    display: flex;
+  }
+
+  .skills-li a {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+  }
+
+  .tags li a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background-color: #ebebff;
+    border-radius: 8px;
+    padding: 4px 12px 4px 12px;
+    margin-right: 8px;
+  }
+
+  .action {
+    width: 126px;
+    height: 48px;
+    border: 1px solid #396df2;
+    color: #396df2;
+    border-radius: 8px;
+    margin-top: 44px;
+    padding: 12px;
+  }
+
+  .action:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .action:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
+  .action:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+    border: 1px solid #c1c7d0;
+  }
+
+  .action:active {
+    color: #fff;
+    background-color: #2230d2;
+  }
+
+  /* -------------Myself----- */
+
+  #myself-section {
+    background-color: #e5e5e5;
+  }
+
+  #myself {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 166px;
+    border-top-right-radius: 150px;
+  }
+
+  #myself #container-text-icons {
+    width: 31.042%;
+    padding: 0;
+    margin: 143px 0 0 9.9305%;
+  }
+
+  #myself #text-presentation {
+    margin: 0;
+    width: 100%;
+  }
+
+  #contact h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    margin-top: 142px;
+  }
+
+  #myself #text-presentation h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  #contact p {
+    width: 569px;
+    height: 102px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    color: #ebebff;
+    margin-top: 12px;
+  }
+
+  #myself #text-presentation p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+  }
+
+  #myself #container-icons {
+    margin-top: 24px;
+  }
+
+  #myself #container-icons ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #resume {
+    width: 172px;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid #6070ff;
+    color: #6070ff;
+    border-radius: 8px;
+    margin: 34px 0 24px 0;
+  }
+
+  #resume a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  #resume:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .resume:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
+  .resume:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+    border: 1px solid #c1c7d0;
+  }
+
+  .resume:active {
+    color: #fff;
+    background-color: #2230d2;
+  }
+
+  #skills {
+    width: 47.5%;
+    margin: 130px 9.861% 0 24px;
+  }
+
+  .skills-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .skills-li h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+  }
+
+  .img-right {
+    width: 6px;
+    height: 12px;
+    margin-right: 40px;
+  }
+
+  .img-bottom {
+    width: 12px;
+    height: 6px;
+    margin-right: 40px;
+  }
+
+  .sub-list {
+    display: grid;
+    grid-template-columns: 122px 122px 122px;
+    gap: 12px;
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  .sub-list h3 {
+    margin: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+  }
+
+  #separator1 {
+    display: none;
+  }
+
+  .icon-first {
+    margin-left: 7.5px;
+  }
+
+  /* ------------Contact-------- */
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #6070ff;
+    background-image: url(img/contact-desktop/contact\ form\ background\ shapes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 150px;
+    align-items: center;
+  }
+
+  #contact-form {
+    display: grid;
+    width: 447px;
+    gap: 27px;
+    margin-top: 12px;
+  }
+
+  .input-form {
+    width: 100%;
+    height: 48px;
+    border-radius: 2px;
+    border-style: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    font-style: normal;
+    padding-left: 16px;
+  }
+
+  #contact-form textarea {
+    width: 100%;
+    height: 170px;
+    border-radius: 2px;
+    border-style: none;
+    font-family: Poppins, sans-serif;
+    padding: 15px 16px 15px 16px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  #contact-form button {
+    width: 142px;
+    height: 48px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    color: #6070ff;
+    background-color: #fff;
+    margin-left: 34.057%;
+  }
+
+  #contact-form button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  #contact-form button:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
+  #contact-form button:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+    border: 1px solid #c1c7d0;
+  }
+
+  #contact-form button:active {
+    color: #fff;
+    background-color: #2230d2;
+  }
+
+  input::placeholder {
+    color: black;
+  }
+}
