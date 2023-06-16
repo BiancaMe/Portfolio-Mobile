@@ -65,6 +65,22 @@
     float: left;
   }
 
+  .first-text-section h1 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .sub-list li {
+    float: left;
+    width: 122px;
+    padding: 9px 0 9px 12px;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+  }
+
   #navbar li {
     padding: 0 12px 10px 12px;
     font-size: 15px;
@@ -156,6 +172,7 @@
     width: 14.17px;
     margin-right: 15px;
   }
+
   /* --------------MiddleSection-------- */
 
   #works {
@@ -199,7 +216,6 @@
     line-height: 24px;
     margin-top: 12px;
   }
-
 
   .frame1 {
     color: #344563;
@@ -293,7 +309,9 @@
     color: #fff;
     background-color: #2230d2;
   }
+
   /* -------------Myself----- */
+
   #myself {
     background-color: #fff;
     display: flex;
@@ -309,14 +327,6 @@
   #myself #text-presentation {
     margin: 0;
     width: 100%;
-  }
-
-  .first-text-section h1 {
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    font-weight: 700;
-    font-style: normal;
   }
 
   #contact h1 {
@@ -440,14 +450,6 @@
     margin-top: 20px;
   }
 
-  .sub-list li {
-    float: left;
-    width: 122px;
-    padding: 9px 0 9px 12px;
-    background-color: #f7f7f9;
-    border-radius: 8px;
-  }
-
   .sub-list h3 {
     margin: 12px;
     font-size: 15px;
@@ -459,10 +461,13 @@
   #separator1 {
     display: none;
   }
+
   .icon-first {
     margin-left: 7.5px;
   }
+
   /* ------------Contact-------- */
+
   #contact {
     display: flex;
     flex-direction: column;
