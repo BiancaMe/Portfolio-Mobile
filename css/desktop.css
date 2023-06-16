@@ -227,6 +227,10 @@
     display: none;
   }
 
+  .work-presentation-desktop {
+    width: 37.778%;
+  }
+
   .block {
     padding: 24px;
   }
@@ -332,10 +336,15 @@
 
   /* -------------Myself----- */
 
+  #myself-section {
+    background-color: #e5e5e5;
+  }
+
   #myself {
     background-color: #fff;
     display: flex;
     padding-bottom: 166px;
+    border-top-right-radius: 150px;
   }
 
   #myself #container-text-icons {
