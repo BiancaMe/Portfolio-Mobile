@@ -35,16 +35,16 @@ body {
     text-align: center;
   }
 
+  #myLogo:hover {
+    color: violet;
+  }
+
   #myLogo {
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
     color: #6070ff;
-  }
-
-  #myLogo:hover {
-    color: violet;
   }
 
   #navbar {
