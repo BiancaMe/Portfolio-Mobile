@@ -42,6 +42,17 @@
     display: none;
   }
 
+  .frame ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tags ul {
+    list-style: none;
+    overflow: hidden;
+  }
+
   #navbar ul {
     list-style: none;
     display: flex;
@@ -50,13 +61,17 @@
     text-align: center;
   }
 
+  .tags li {
+    float: left;
+  }
+
   #navbar li {
     padding: 0 12px 10px 12px;
     font-size: 15px;
     color: #344563;
   }
 
-  /* ------HeadLine ---------*/
+  /* ------HeadLine --------- */
 
   #headline {
     background-image: url(img/background-shape-desktop/Header\ bg@2x.png);
@@ -141,7 +156,7 @@
     width: 14.17px;
     margin-right: 15px;
   }
-  /*--------------MiddleSection--------*/
+  /* --------------MiddleSection-------- */
 
   #works {
     background-color: #e5e5e5;
@@ -179,25 +194,12 @@
     padding: 24px;
   }
 
-  .first-text-section h1 {
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    font-weight: 700;
-    font-style: normal;
-  }
-
   .frame {
     font-size: 18px;
     line-height: 24px;
     margin-top: 12px;
   }
 
-  .frame ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-  }
 
   .frame1 {
     color: #344563;
@@ -230,15 +232,6 @@
 
   .tags {
     margin-top: 24px;
-  }
-
-  .tags ul {
-    list-style: none;
-    overflow: hidden;
-  }
-
-  .tags li {
-    float: left;
   }
 
   .action a {
@@ -300,7 +293,7 @@
     color: #fff;
     background-color: #2230d2;
   }
-  /*-------------Myself-----*/
+  /* -------------Myself----- */
   #myself {
     background-color: #fff;
     display: flex;
@@ -318,10 +311,40 @@
     width: 100%;
   }
 
+  .first-text-section h1 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  #contact h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    margin-top: 142px;
+  }
+
   #myself #text-presentation h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
+  }
+
+  #contact p {
+    width: 569px;
+    height: 102px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    color: #ebebff;
+    margin-top: 12px;
   }
 
   #myself #text-presentation p {
@@ -439,7 +462,7 @@
   .icon-first {
     margin-left: 7.5px;
   }
-  /*------------Contact--------*/
+  /* ------------Contact-------- */
   #contact {
     display: flex;
     flex-direction: column;
@@ -451,28 +474,6 @@
     background-position: center;
     border-top-left-radius: 150px;
     align-items: center;
-  }
-
-  #contact h1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    text-align: center;
-    font-style: normal;
-    color: #fff;
-    margin-top: 142px;
-  }
-
-  #contact p {
-    width: 569px;
-    height: 102px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: center;
-    font-style: normal;
-    color: #ebebff;
-    margin-top: 12px;
   }
 
   #contact-form {
