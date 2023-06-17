@@ -1,12 +1,15 @@
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 768px) {
   #contact {
     width: 100%;
-    background-image: url(img/Contact\ me-foto.png);
+    background-color: #6070ff;
+    background-image: url(img/contact/contact\ form\ shapes-mobile.png);
     background-repeat: no-repeat;
+    background-position-x: right;
     display: flex;
     flex-direction: column;
     padding: 103px 24px 45px 24px;
     text-align: center;
+    border-top-left-radius: 100px;
   }
 
   #contact h1 {
@@ -70,12 +73,33 @@
     letter-spacing: 0.03em;
     font-style: normal;
     font-family: Poppins, sans-serif;
-    color: #6070FF;
+    color: #6070ff;
     background-color: #fff;
   }
-  
- input::placeholder {
-  color: black;
- }
 
+  #contact-form button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  #contact-form button:enabled {
+    color: #396df2;
+    border: 1px solid #396df2;
+    background-color: #fff;
+  }
+
+  #contact-form button:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+    border: 1px solid #c1c7d0;
+  }
+
+  #contact-form button:active {
+    color: #fff;
+    background-color: #2230d2;
+  }
+
+  input::placeholder {
+    color: black;
+  }
 }

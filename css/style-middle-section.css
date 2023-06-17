@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 768px) {
   #works {
     /* 375 x 2788 */
     background-color: #e5e5e5;
@@ -7,13 +7,22 @@
     padding: 114px 24px 114px 24px;
   }
 
-  .card-work {
+  .card-work-par,
+  .card-work-impar {
     border-radius: 16px;
     padding: 16px 16px 28px 16px;
     gap: 12px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
+  }
+
+  .work-presentation-desktop {
+    display: none;
+  }
+
+  .work-presentation-mobile {
+    width: auto;
   }
 
   .first-text-section h1 {
@@ -64,14 +73,13 @@
 
   .tags {
     margin-top: 12px;
-    
   }
 
   .tags ul {
     list-style: none;
     overflow: hidden;
-    
   }
+
   .tags li {
     float: left;
   }
