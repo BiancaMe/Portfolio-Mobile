@@ -16,6 +16,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Video Presentation ](#video-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -71,6 +72,14 @@
 - [Live Demo Link](https://biancame.github.io/Portfolio-Mobile/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Video Presentation <a name="video-presentation"></a>
+
+- [Video Link](https://www.loom.com/share/d136daa897aa463280134cd13a165c9b)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 <!-- GETTING STARTED -->
 
