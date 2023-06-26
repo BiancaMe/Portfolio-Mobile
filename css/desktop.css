@@ -85,6 +85,40 @@
     padding: 0 12px 10px 12px;
   }
 
+  #resume a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+  .tags li a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background-color: #ebebff;
+    border-radius: 8px;
+    padding: 4px 12px 4px 12px;
+    margin-right: 8px;
+  }
+
+  .skills-li a {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+  }
+
+  .action a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    display: flex;
+  }
+
   #navbar li a {
     font-size: 15px;
     color: #344563;
@@ -282,34 +316,6 @@
     margin-top: 24px;
   }
 
-  .action a {
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: normal;
-    display: flex;
-  }
-
-  .skills-li a {
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center;
-  }
-
-  .tags li a {
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    background-color: #ebebff;
-    border-radius: 8px;
-    padding: 4px 12px 4px 12px;
-    margin-right: 8px;
-  }
-
   .action {
     width: 126px;
     height: 48px;
@@ -366,6 +372,13 @@
     width: 100%;
   }
 
+  .skills-li h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+  }
+
   #contact h2 {
     font-size: 2.5em;
     font-weight: 700;
@@ -383,7 +396,7 @@
 
   #contact p {
     width: 569px;
-    height: 102;
+    height: 102px;
     font-size: 1.25em;
     font-weight: 400;
     line-height: 28px;
@@ -419,13 +432,6 @@
     margin: 34px 0 24px 0;
   }
 
-  #resume a {
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-  }
-
   #resume:hover {
     background-color: #6070ff;
     color: #fff;
@@ -457,13 +463,6 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-  }
-
-  .skills-li h2 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: normal;
   }
 
   .img-right {
