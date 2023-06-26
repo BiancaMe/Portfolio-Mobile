@@ -85,12 +85,21 @@
     padding: 0 12px 10px 12px;
   }
 
-  #resume a {
+  .action a {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    font-style: normal;
+    display: flex;
   }
+
+  .skills-li a {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+  }
+
   .tags li a {
     font-size: 12px;
     line-height: 16px;
@@ -104,19 +113,11 @@
     margin-right: 8px;
   }
 
-  .skills-li a {
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center;
-  }
-
-  .action a {
+  #resume a {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
-    font-style: normal;
-    display: flex;
+    letter-spacing: 0.03em;
   }
 
   #navbar li a {
@@ -185,7 +186,7 @@
   }
 
   #container-icons {
-    width: 170.17;
+    width: 170px;
     height: 20px;
     margin-top: 12px;
   }
