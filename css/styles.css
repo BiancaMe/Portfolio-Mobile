@@ -75,7 +75,6 @@ body {
     height: 30px;
   }
 
-
   .menu-mobile {
     position: fixed;
     width: 100%;
@@ -97,13 +96,17 @@ body {
   }
 
   #menu-mobile ul {
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
   }
 
   #menu-mobile li {
     margin-left: 25px;
     list-style: none;
     color: white;
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: 55px;
   }
 
   .close-menu {
