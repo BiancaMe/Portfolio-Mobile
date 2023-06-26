@@ -83,8 +83,16 @@
 
   #navbar li {
     padding: 0 12px 10px 12px;
+  }
+
+  #navbar li a {
     font-size: 15px;
     color: #344563;
+    text-decoration: none;
+  }
+
+  #menu-mobile {
+    display: none;
   }
 
   /* ------HeadLine --------- */
@@ -358,7 +366,7 @@
     width: 100%;
   }
 
-  #contact h1 {
+  #contact h2 {
     font-size: 2.5em;
     font-weight: 700;
     line-height: 52px;
