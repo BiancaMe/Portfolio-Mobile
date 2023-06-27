@@ -233,7 +233,18 @@
     gap: 22px;
     border: 1px solid #dfe1e6;
     flex-direction: row-reverse;
-    animation: right 2s ease-in-out;
+    -webkit-animation: right 2s ease-in-out;
+            animation: right 2s ease-in-out;
+  }
+
+  @-webkit-keyframes right {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
   }
 
   @keyframes right {
@@ -253,7 +264,18 @@
     display: flex;
     gap: 22px;
     border: 1px solid #dfe1e6;
-    animation: left 2s ease-in-out;
+    -webkit-animation: left 2s ease-in-out;
+            animation: left 2s ease-in-out;
+  }
+
+  @-webkit-keyframes left {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
   }
 
   @keyframes left {
@@ -587,6 +609,22 @@
   #contact-form button:active {
     color: #fff;
     background-color: #2230d2;
+  }
+
+  input::-webkit-input-placeholder {
+    color: black;
+  }
+
+  input::-moz-placeholder {
+    color: black;
+  }
+
+  input:-ms-input-placeholder {
+    color: black;
+  }
+
+  input::-ms-input-placeholder {
+    color: black;
   }
 
   input::placeholder {
