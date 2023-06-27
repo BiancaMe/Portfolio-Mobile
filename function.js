@@ -30,5 +30,5 @@ myself.addEventListener('click', (event) => {
 contact.addEventListener('click', (event) => {
   menu.classList.remove('menu-open');
   window.location.hash = '#contact';
-  event.preventDefault(); 
+  event.preventDefault();
 });
