@@ -234,7 +234,6 @@
     border: 1px solid #dfe1e6;
     flex-direction: row-reverse;
     -webkit-animation: right 2s ease-in-out;
-            animation: right 2s ease-in-out;
   }
 
   @-webkit-keyframes right {
@@ -265,7 +264,6 @@
     gap: 22px;
     border: 1px solid #dfe1e6;
     -webkit-animation: left 2s ease-in-out;
-            animation: left 2s ease-in-out;
   }
 
   @-webkit-keyframes left {
@@ -619,11 +617,11 @@
     color: black;
   }
 
-  input:-ms-input-placeholder {
+  input::-ms-input-placeholder {
     color: black;
   }
 
-  input::-ms-input-placeholder {
+  input:-ms-input-placeholder {
     color: black;
   }
 
