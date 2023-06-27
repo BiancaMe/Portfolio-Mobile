@@ -82,6 +82,7 @@
 
   .tags li {
     float: left;
+    margin-bottom: 4px;
   }
 
   .action a {
