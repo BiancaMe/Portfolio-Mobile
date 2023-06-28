@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style-contact.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/popUp.css">
     <link rel="stylesheet" href="css/style-middle-section.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +34,36 @@
             <li><a id="contact-link" href="#contact">Contact</a></li>
         </ul>    
     </div>
-    <script src="function.js"></script>
+    <div id="popUp" class="popUp">
+              <div class="block b-pop">
+                <button type="button" class="close-pop">&times;</button>
+                <div class="first-text-section">
+                    <h2 class="namePop"></h2>
+                    <div class="frame">
+                        <ul>
+                            <li class="frame1 frame-li"></li>
+                            <li><img  alt="" class="dot"  img src="css/img/Counter.png"></li>
+                            <li class="frame2 frame-li"></li>
+                            <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
+                            <li class="frame3 frame-li"></li>      
+                        </ul>
+                    </div>
+                </div>
+                <img  alt="Tonic-web-page" class=" img-m-pop" src="">
+                <div class="img-d-container"> <img  alt="" class=" img-d-pop" src="" >  </div>  
+                <div class="d-c-pop">
+                    <p class="descPop">  </p>
+                    <div class="tags t-pop">
+                        <ul class="ul-tagPop">  </ul>
+                        <img alt="line" id="line-pop" class="line-pop"  src="css/img/Separator-Bottom.png">
+                    </div>
+                    <div class="container-links">
+                        <button id="live" class="btn-pop"> See live<img class="icon-pop-live" src="css/img/Icon.png" ></button>
+                        <button id="source" class="btn-pop"> See source <img class="icon-pop-source" src="css/img/Icon -GitHub.png"></button>
+                    </div>
+                </div>
+            </div>
+    </div>
     <section id="headline">
         <div id="container-text-icons">
             <div id="text-presentation">
@@ -57,21 +87,20 @@
             </div>
         </div>
     </section>
-
     <section id="works">
-        <div class="card-work-impar">
+        <div id="0" class="card-work-impar card-work">
             <img  alt="Tonic-web-page" class="work-presentation-desktop" src="css/img/Portoflio Card/dektop1.png" >
             <img  alt="Tonic-web-page" class="work-presentation-mobile" src="css/img/Snapshoot1.png">
             <div class="block">
                 <div class="first-text-section">
-                    <h2>Tonic</h2>
+                    <h2 >Tonic</h2>
                     <div class="frame">
                         <ul>
-                            <li class="frame1">CANOPPY</li>
+                            <li class="frame1 frame-li">CANOPPY</li>
                             <li><img  alt="" class="dot"  img src="css/img/Counter.png"></li>
-                            <li class="frame2">Back End Dev</li>
+                            <li class="frame2 frame-li">Back End Dev</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame3">2015</li>      
+                            <li class="frame3 frame-li">2015</li>      
                         </ul>
                     </div>
                 </div>
@@ -87,12 +116,12 @@
                     </ul>
                 </div>
                 <div class="action">
-                    <a>See project</a>
+                     <a>See project</a> 
                 </div>
             </div>
 
         </div>
-        <div class="card-work-par">
+        <div id="1" class="card-work-par card-work">
             <img alt="Multi-post-Stories-Facebook" class="work-presentation-desktop" src="css/img/Portoflio Card/desktop2.png">
             <img alt="Multi-post-Stories-Facebook" class="work-presentation-mobile" src="css/img/Snapshoot2.png" >
             <div class="block">
@@ -102,11 +131,11 @@
                     </h2>
                     <div class="frame">
                         <ul>
-                            <li class="frame1">FACEBOOK</li>
+                            <li class="frame1 frame-li">FACEBOOK</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame2">Full Stack Dev</li>
+                            <li class="frame2 frame-li">Full Stack Dev</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame3">2015</li>      
+                            <li class="frame3 frame-li">2015</li>      
                         </ul>
                     </div>
                 </div>
@@ -127,7 +156,7 @@
             </div>
 
         </div>
-        <div class="card-work-impar">
+        <div class="card-work-impar card-work">
             <img alt="Facebook-360" class="work-presentation-desktop" src="css/img/Portoflio Card/desktop3.png">
             <img alt="Facebook-360" class="work-presentation-mobile" src="css/img/Snapshoot3.png">
             <div class="block">
@@ -135,11 +164,11 @@
                     <h2>Facebook 360</h2>
                     <div class="frame">
                         <ul>
-                            <li class="frame1">FACEBOOK</li>
+                            <li class="frame1 frame-li">FACEBOOK</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame2">Full Stack Dev</li>
+                            <li class="frame2 frame-li">Full Stack Dev</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame3">2015</li>      
+                            <li class="frame3 frame-li">2015</li>      
                         </ul>
                     </div>
                 </div>
@@ -161,7 +190,7 @@
             </div>
 
         </div>
-        <div class="card-work-par">
+        <div class="card-work-par card-work">
             <img alt="Uber-Navigation" class="work-presentation-desktop" src="css/img/Portoflio Card/desktop4.png">
             <img alt="Uber-Navigation" class="work-presentation-mobile" src="css/img/Snapshoot4.png" >
             <div class="block">
@@ -171,11 +200,11 @@
                     </h2>
                     <div class="frame">
                         <ul>
-                            <li class="frame1">Uber</li>
+                            <li class="frame1 frame-li">Uber</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame2">Lead Developer</li>
+                            <li class="frame2 frame-li">Lead Developer</li>
                             <li><img alt="" class="dot" img src="css/img/Counter.png"></li>
-                            <li class="frame3">2018</li>      
+                            <li class="frame3 frame-li">2018</li>      
                         </ul>
                     </div>
                 </div>
@@ -276,6 +305,6 @@
             </form>
 
         </section>
-    
+        <script src="function.js"></script>
 </body>
 </html>
