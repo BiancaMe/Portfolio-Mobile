@@ -298,10 +298,11 @@
             </p>
 
             <form id="contact-form" action="https://formspree.io/f/xbjenldv" method="POST">
-                <input class="input-form" name="name"  type="text" placeholder="Lorem ipsum" maxlength="30" required>
-                <input class="input-form" name="email" type="email" placeholder="loremipsum@gmail.com" required>
+                <input id="name" class="input-form" name="name"  type="text" placeholder="Lorem ipsum" maxlength="30" required>
+                <input id="email" class="input-form"  name="email" type="email" placeholder="loremipsum@gmail.com" required>
+                <small class="msg"></small>
                 <textarea name="text-area" id="" cols="30" rows="10" placeholder="Write your message here..." maxlength="500" required></textarea>
-                <button type="submit">Get in touch</button>
+                <button id="submit" type="submit">Get in touch</button>
             </form>
 
         </section>

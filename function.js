@@ -98,3 +98,31 @@ closePop.addEventListener('click', (event) => {
   }
   event.preventDefault();
 });
+
+/* ----- Validate Form --- */
+function showMessage(input, message, type) {
+  const msg = input.parentNode.querySelector('small');
+  msg.innerHTML = message;
+  input.className = type ? 'succes' : 'errror';
+  return type;
+}
+
+const valid = document.getElementById('contact-form');
+valid.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const { email } = valid.elements;
+  const s = document.querySelector('.msg');
+
+  if (s.classList.contains('small-on')) s.classList.remove('small-on');
+  if (email.classList.contains('error-email')) email.classList.remove('error-email');
+
+  if (email.value === email.value.toLocaleLowerCase()) {
+    HTMLFormElement.prototype.submit.call(valid);
+    showMessage(email, '', true);
+  } else {
+    console.log('no');
+    showMessage(email, 'Please lowecase your email', false);
+    email.classList.add('error-email');
+    s.classList.add('small-on');
+  }
+});
