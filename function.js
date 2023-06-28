@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const action = document.querySelector('#menu-action');
 const menu = document.querySelector('#menu-mobile');
 const close = document.querySelector('.close-menu');
