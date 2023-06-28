@@ -66,12 +66,12 @@ function popInfo(event) {
   imgdesk.src = obj.imgd;
 
   const framep = pop.querySelectorAll('.frame-li');
-  for (let i = 0; i < framep.length; i++) {
+  for (let i = 0; i < framep.length; i += 1) {
     framep[i].innerHTML = obj.frame[i].innerHTML;
   }
 
   const tagp = pop.querySelector('.ul-tagPop');
-  for (let i = 0; i < tec.length; i++) {
+  for (let i = 0; i < tec.length; i += 1) {
     const liPop = document.createElement('li');
     const aPop = document.createElement('a');
     const tag = document.createTextNode(tec[i].innerHTML);
@@ -83,7 +83,7 @@ function popInfo(event) {
 
 /* ------ PopUpCall ----- */
 const detail = document.querySelectorAll('.action a');
-for (let i = 0; i < detail.length; i++) {
+for (let i = 0; i < detail.length; i += 1) {
   detail[i].addEventListener('click', popInfo);
 }
 
@@ -94,7 +94,7 @@ closePop.addEventListener('click', (event) => {
   const pop = document.querySelector('.popUp');
   pop.classList.remove('popup-visible');
   const init = pop.querySelectorAll('.ul-tagPop li');
-  for (let i = 0; i < init.length; i++) {
+  for (let i = 0; i < init.length; i += 1) {
     init[i].remove();
   }
   event.preventDefault();

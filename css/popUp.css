@@ -118,7 +118,6 @@
   .b-pop {
     height: 100%;
     background-color: #fff;
-    margin: 24px;
     border-radius: 16px;
     margin: 72px 142px 72px 142px;
     overflow-y: scroll;
@@ -145,25 +144,21 @@
     width: 100%;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr;
     gap: 8px;
     margin-top: 32px;
   }
 
-.descPop {
+  .descPop {
     width: 100%;
     height: 100%;
     grid-row-start: 1;
     grid-row-end: 3;
     padding: 8px;
-  } 
+  }
 
-.ul-tagPop li {
+  .ul-tagPop li {
     margin: 8px;
-}
-
-  .line-pop {
-    
   }
 
   .container-links {
