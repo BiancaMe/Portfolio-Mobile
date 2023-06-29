@@ -120,7 +120,6 @@ valid.addEventListener('submit', (e) => {
     HTMLFormElement.prototype.submit.call(valid);
     showMessage(email, '', true);
   } else {
-    console.log('no');
     showMessage(email, 'Please lowecase your email', false);
     email.classList.add('error-email');
     s.classList.add('small-on');
