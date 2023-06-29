@@ -15,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
   - [Video Presentation ](#video-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -65,13 +64,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://biancame.github.io/Portfolio-Mobile/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Video Presentation <a name="video-presentation"></a>
 
