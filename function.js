@@ -127,8 +127,14 @@ valid.addEventListener('submit', (e) => {
 });
 
 /* ------- LocalStorage ------ */
+window.onload = () => {
+  const name = document.querySelector('.name-form').value; //Don't work, when the windows is load , dont save that i write in the input
+  console.log(name);                
+};
 
-window.addEventListener('load', () => {
+
+
+/*window.addEventListener('load', () => {
   if (localStorage) {
     const name = document.querySelector('#name').value;
     const email = document.querySelector('#email').value;
@@ -138,4 +144,4 @@ window.addEventListener('load', () => {
     const showInfo = JSON.parse(localStorage.getItem('formInfo'));
     console.log(showInfo);
   }
-});
+});*/
