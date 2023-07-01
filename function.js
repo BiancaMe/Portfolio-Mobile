@@ -49,7 +49,12 @@ function popInfo(event) {
   const frame = card.querySelectorAll('.frame-li');
 
   const obj = {
-    name, desc, img, imgd, tec, frame,
+    name,
+    desc,
+    img,
+    imgd,
+    tec,
+    frame,
   };
 
   const namep = pop.querySelector('.namePop');
