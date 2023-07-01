@@ -99,7 +99,39 @@ closePop.addEventListener('click', (event) => {
   event.preventDefault();
 });
 
+/* ------- LocalStorage ------ */
+
+const data = { name: '', email: '', text: '' };
+const nameForm = document.querySelector('#name');
+const emailForm = document.querySelector('#email');
+const textForm = document.querySelector('#textarea');
+
+function getInfo() {
+  data.name = nameForm.value;
+  data.email = emailForm.value;
+  data.text = textForm.value;
+
+  localStorage.setItem('infoData', JSON.stringify(data));
+}
+
+nameForm.addEventListener('input', getInfo);
+emailForm.addEventListener('input', getInfo);
+textForm.addEventListener('input', getInfo);
+
+window.addEventListener('load', () => {
+  if (localStorage) {
+    const infoData = localStorage.getItem('infoData');
+    const info = JSON.parse(infoData);
+    if (info) {
+      nameForm.value = info.name;
+      emailForm.value = info.email;
+      textForm.value = info.text;
+    }
+  }
+});
+
 /* ----- Validate Form --- */
+
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('small');
   msg.innerHTML = message;
@@ -118,6 +150,10 @@ valid.addEventListener('submit', (e) => {
 
   if (email.value === email.value.toLocaleLowerCase()) {
     HTMLFormElement.prototype.submit.call(valid);
+    localStorage.removeItem('infoData');
+    nameForm.value = '';
+    emailForm.value = '';
+    textForm.value = '';
     showMessage(email, '', true);
   } else {
     showMessage(email, 'Please lowecase your email', false);
@@ -125,23 +161,3 @@ valid.addEventListener('submit', (e) => {
     s.classList.add('small-on');
   }
 });
-
-/* ------- LocalStorage ------ */
-window.onload = () => {
-  const name = document.querySelector('.name-form').value; //Don't work, when the windows is load , dont save that i write in the input
-  console.log(name);                
-};
-
-
-
-/*window.addEventListener('load', () => {
-  if (localStorage) {
-    const name = document.querySelector('#name').value;
-    const email = document.querySelector('#email').value;
-    const text = document.querySelector('#text').value;
-    const info = { name, email, text };
-    localStorage.setItem('formInfo', JSON.stringify(info));
-    const showInfo = JSON.parse(localStorage.getItem('formInfo'));
-    console.log(showInfo);
-  }
-});*/
