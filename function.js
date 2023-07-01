@@ -49,7 +49,12 @@ function popInfo(event) {
   const frame = card.querySelectorAll('.frame-li');
 
   const obj = {
-    name, desc, img, imgd, tec, frame,
+    name,
+    desc,
+    img,
+    imgd,
+    tec,
+    frame,
   };
 
   const namep = pop.querySelector('.namePop');
@@ -99,7 +104,39 @@ closePop.addEventListener('click', (event) => {
   event.preventDefault();
 });
 
+/* ------- LocalStorage ------ */
+
+const data = { name: '', email: '', text: '' };
+const nameForm = document.querySelector('#name');
+const emailForm = document.querySelector('#email');
+const textForm = document.querySelector('#textarea');
+
+function getInfo() {
+  data.name = nameForm.value;
+  data.email = emailForm.value;
+  data.text = textForm.value;
+
+  localStorage.setItem('infoData', JSON.stringify(data));
+}
+
+nameForm.addEventListener('input', getInfo);
+emailForm.addEventListener('input', getInfo);
+textForm.addEventListener('input', getInfo);
+
+window.addEventListener('load', () => {
+  if (localStorage) {
+    const infoData = localStorage.getItem('infoData');
+    const info = JSON.parse(infoData);
+    if (info) {
+      nameForm.value = info.name;
+      emailForm.value = info.email;
+      textForm.value = info.text;
+    }
+  }
+});
+
 /* ----- Validate Form --- */
+
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('small');
   msg.innerHTML = message;
@@ -118,6 +155,10 @@ valid.addEventListener('submit', (e) => {
 
   if (email.value === email.value.toLocaleLowerCase()) {
     HTMLFormElement.prototype.submit.call(valid);
+    localStorage.removeItem('infoData');
+    nameForm.value = '';
+    emailForm.value = '';
+    textForm.value = '';
     showMessage(email, '', true);
   } else {
     showMessage(email, 'Please lowecase your email', false);
